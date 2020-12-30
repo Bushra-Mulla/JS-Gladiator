@@ -10,7 +10,10 @@ const colosseum = new Arena("Colosseum");
 colosseum.addGladiator(max);
 colosseum.addGladiator(titus);
 colosseum.addGladiator(andronicus);
-
 colosseum.fight();
 
 console.log(colosseum.gladiators); // => [max]
+
+//.................
+colosseum.removeGladiator("Maximus");
+console.log(colosseum.gladiators); // => []

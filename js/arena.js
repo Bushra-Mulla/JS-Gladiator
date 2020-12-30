@@ -36,4 +36,8 @@ class Arena {
       return "There are no enough gladiators";
     }
   }
+
+  removeGladiator(names) {
+    this.gladiators.splice(this.gladiators.name == names, +1);
+  }
 }
