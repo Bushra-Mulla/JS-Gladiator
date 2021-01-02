@@ -14,7 +14,5 @@ colosseum.fight();
 console.log(colosseum.gladiators); // => [max]
 
 //.................
-//colosseum.removeGladiator("Maximus");
-colosseum.winerMax();
-
+colosseum.removeGladiator("Maximus");
 console.log(colosseum.gladiators); // => []
